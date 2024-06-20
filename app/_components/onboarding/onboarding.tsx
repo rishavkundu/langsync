@@ -266,7 +266,7 @@ export function OnboardingPage() {
     if (!account) {
       return "";
     }
-    const title = "langsync - Requesting higher quotas";
+    const title = "Nerval AI - Requesting higher quotas";
     const body = `Please describe your use case and how many document indexes you need. We'll get back to you as soon as possible.
       
 Use case:
@@ -274,7 +274,7 @@ Use case:
 Indexed documents needed:
 
 Account ID: ${account.id}`;
-    const address = "hey@gradientsandgrit.com";
+    const address = "support@nerval.org";
     return encodeURI(`mailto:${address}?subject=${title}&body=${body}`);
   }, [account]);
 
@@ -459,7 +459,7 @@ function Embeddings({
     if (!accountId) {
       return "";
     }
-    const title = "langsync - Requesting custom embeddings";
+    const title = "Nerval AI - Requesting custom embeddings";
     const body = `Please describe your use case and the embeddings you need to use. We'll get back to you as soon as possible.
       
 Use case:
@@ -467,7 +467,7 @@ Use case:
 Embeddings needed:
 
 Account ID: ${accountId}`;
-    const address = "hey@gradientsandgrit.com";
+    const address = "support@nerval.org";
     return encodeURI(`mailto:${address}?subject=${title}&body=${body}`);
   }, [accountId]);
 
@@ -479,7 +479,7 @@ Account ID: ${accountId}`;
         </Callout.Icon>
         <Callout.Text>
           Embeddings currently use the OpenAI Embeddings model with a managed
-          key, so you do not have to supply your own key. If you require a
+          key, so you do not need to supply your own key. If you require a
           different embedding model, please <Link>contact us</Link>.
         </Callout.Text>
       </Callout.Root>
@@ -552,7 +552,7 @@ export function PipelineIllustration({
           <Sparkles>
             <span
               className={
-                "text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 to-amber-600"
+                "text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600"
               }
             >
               Real-Time
@@ -561,7 +561,7 @@ export function PipelineIllustration({
           Context from All your Favorite Tools
         </Heading>
         <Text size={"2"} color={"gray"}>
-          langsync continuously indexes data from your tools in real-time,
+          Nerval continuously indexes data from your tools in real-time,
           <br /> so you can focus on creating value for your team and customers.
         </Text>
       </div>

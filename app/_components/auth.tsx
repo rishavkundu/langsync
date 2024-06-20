@@ -95,10 +95,10 @@ export function AuthFlow() {
         <div className={"flex flex-col space-y-4"}>
           <div className={"flex flex-col items-start text-left space-y-1"}>
             <span className="text-3xl font-medium tracking-tight">
-              Welcome back
+              Welcome to Nerval.
             </span>
             <span className="text-base text-neutral-500">
-              No waitlists, no credit card, retrieve your data in under 5
+              No waitlists, no credit card, start indexing your data in under 5
               minutes.
             </span>
           </div>
@@ -139,7 +139,7 @@ export function AuthFlow() {
         <div className={"flex flex-col space-y-4"}>
           <div className={"flex flex-col items-start text-left space-y-1"}>
             <span className="text-3xl font-medium tracking-tight">
-              Welcome back
+              Welcome back.
             </span>
             <span className="text-base text-neutral-500">
               To start syncing your data, please sign in with your email.

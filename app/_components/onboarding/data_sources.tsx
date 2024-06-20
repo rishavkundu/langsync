@@ -156,7 +156,7 @@ export function DataSources({
     if (!accountId) {
       return "";
     }
-    const title = "langsync - Requesting Data Source";
+    const title = "Nerval AI - Requesting Data Source";
     const body = `Please describe your use case and which data source integration you'd like to see. We'll get back to you as soon as possible.
       
 Use case:
@@ -164,7 +164,7 @@ Use case:
 Data Source needed:
 
 Account ID: ${accountId}`;
-    const address = "hey@gradientsandgrit.com";
+    const address = "support@nerval.org";
     return encodeURI(`mailto:${address}?subject=${title}&body=${body}`);
   }, [accountId]);
 

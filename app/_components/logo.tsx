@@ -1,5 +1,6 @@
 import iconImage from "../icon.png";
 import Image from "next/image";
+import nervalLogo from "../nerval.webp";
 import linearLogoImage from "../assets/linear-logo.svg";
 import notionLogoImage from "../assets/Notion-logo.svg";
 import pineconeLogoImage from "../assets/pinecone-icon.svg";
@@ -21,7 +22,7 @@ export function Logo() {
         draggable={false}
         className={"group-hover:animate-spin"}
       />
-      <span className={"font-semibold"}>langsync</span>
+      <span className={"font-semibold"}>Nerval AI</span>
     </div>
   );
 }

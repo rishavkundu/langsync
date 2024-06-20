@@ -43,7 +43,7 @@ export function IntegrationConnectionLoader() {
         </Heading>
         <Text size={"2"} className={"text-slate-600"}>
           This should only take a few seconds. If you&apos;re seeing this for
-          more than a minute, please contact us!
+          more than a minute, please contact us.
         </Text>
       </div>
     </motion.div>
@@ -91,7 +91,7 @@ export function OnboardingLoader() {
         </Heading>
         <Text size={"2"} className={"text-slate-600"}>
           This should only take a few seconds. If you&apos;re seeing this for
-          more than a minute, please contact us!
+          more than a minute, please contact us.
         </Text>
       </div>
     </motion.div>

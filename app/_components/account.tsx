@@ -150,7 +150,7 @@ function OnboardingFinalizer({
             What&apos;s your name?
           </Dialog.Title>
           <Dialog.Description className="text-base text-neutral-500">
-            Let us know how we should call you.
+            Let us know what we should call you.
           </Dialog.Description>
         </div>
 

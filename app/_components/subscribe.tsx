@@ -74,9 +74,9 @@ export function SubscriptionModal({ small }: { small?: boolean }) {
             Subscribe
           </Dialog.Title>
           <Dialog.Description className="text-base text-slate-500">
-            Join the Gradients & Grit newsletter to
+            Join the Nerval AI newsletter to
             <br />
-            unlock the full power of langsync.
+            unlock the full power of Nerval.
           </Dialog.Description>
         </div>
 
@@ -91,7 +91,7 @@ export function SubscriptionModal({ small }: { small?: boolean }) {
                   Priority index queue
                 </h3>
                 <span className={"text-sm font-normal text-slate-500"}>
-                  Get fresh data even faster
+                  Access streaming data even faster
                 </span>
               </div>
             </div>

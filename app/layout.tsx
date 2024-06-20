@@ -8,32 +8,28 @@ import { Theme } from "@radix-ui/themes";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "langsync - Connect your team's data to your LLM applications",
+  title: "Nerval AI - Connect your team's data to your LLM applications",
   description:
     "A fully-managed service to sync your team's data to your LLM applications, keeping your data fresh while you focus on building your product.",
-  metadataBase: new URL("https://langsync.gradientsandgrit.com"),
+  metadataBase: new URL("https://app.nerval.org"),
   authors: [
     {
-      name: "Bruno Scheufler",
-      url: "https://brunoscheufler.com",
-    },
-    {
-      name: "Tim Weiß",
-      url: "https://timweiss.net",
+      name: "Rishav Kundu",
+      url: "https://rishavkundu.com",
     },
   ],
   openGraph: {
-    url: "https://langsync.gradientsandgrit.com",
+    url: "https://app.nerval.org",
     description:
       "A fully-managed service to sync your team's data to your LLM applications, keeping your data fresh while you focus on building your product.",
-    title: "langsync - Connect your team's data to your LLM applications",
+    title: "Nerval AI - Connect your team's data to your LLM applications",
     type: "website",
-    siteName: "langsync",
+    siteName: "Nerval AI",
     images: ["og.png"],
     locale: "en_US",
   },
   keywords: [
-    "langsync",
+    "nerval ai",
     "company data llm",
     "llm sync data",
     "chatgpt enterprise",
